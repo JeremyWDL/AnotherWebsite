@@ -29,6 +29,7 @@ export function Content(props) {
 //             })
 //         } )
     
+    const postsURL = https://public-api.wordpress.com/rest/v1.1/sites/jeremyl263694066.wordpress.com/posts/?number=2&pretty=true
 
     return (
         <Switch>
@@ -39,7 +40,7 @@ export function Content(props) {
                 <About />
             </Route>
             <Route path="/cakes">
-                <Cakes />
+                <Cakes url={postsURL}/>
             </Route>
             <Route path="/">
                 <Home />
