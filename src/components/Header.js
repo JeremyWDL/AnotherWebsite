@@ -27,7 +27,7 @@ export function Header(props) {
 
   return (
     <header className="main-header">
-      <img className="logo" src={props.logo} />
+      <img className="logo" src={props.logo} alt="" />
       <h1>{props.title}</h1>
       <nav className="navigation">
         <Navigation items={props.navigation} />
