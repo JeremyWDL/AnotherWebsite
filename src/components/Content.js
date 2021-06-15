@@ -29,7 +29,7 @@ export function Content(props) {
 //             })
 //         } )
     
-    const postsURL = https://public-api.wordpress.com/rest/v1.1/sites/jeremyl263694066.wordpress.com/posts/?number=2&pretty=true
+    const postsURL = "https://public-api.wordpress.com/rest/v1.1/sites/jeremyl263694066.wordpress.com/posts/"
 
     return (
         <Switch>

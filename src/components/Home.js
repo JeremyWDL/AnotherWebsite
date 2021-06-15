@@ -13,11 +13,6 @@ export function Home( props ) {
     // store articles
     const [ articles, setArticles ] = useState([])
 
-    useEffect( () => {
-        props.items().then( (data) => {
-            setArticles( data )
-         } )
-    })
    
 
     const ArticleView = ( props ) => {
